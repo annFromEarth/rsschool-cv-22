@@ -15,6 +15,7 @@ In course of my career as an artist I  had to face several projects that involve
 ----
 ### Skills
 * JavaScript Basics
+
 * 3dsMax, Adobe Package
 
 ----
@@ -36,4 +37,4 @@ function vowelOne(s){
 * German, French - intermidiate
 
 ----
-[* Artist website](https://www.annadvorart.com/  "objects and sculpture")
+[* Artist website](https://www.annadvorart.com/bio  "objects and sculpture")
