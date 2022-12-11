@@ -18,6 +18,7 @@ In course of my career as an artist I  had to face several projects that involve
 * 3dsMax, Adobe Package
 
 ----
+
 ### Code Example
 ***VowelOne Kata from Codewars:*** write a function that takes a string and outputs a strings of 1's and 0's where vowels become 1's and non-vowels become 0's. All non-vowels including non alpha characters (spaces,commas etc.) should be included.
 
@@ -35,4 +36,4 @@ function vowelOne(s){
 * German, French - intermidiate
 
 ----
-[* Artist website](www.annadvorart.com "objects and sculpture")
+[* Artist website](https://www.annadvorart.com/  "objects and sculpture")
