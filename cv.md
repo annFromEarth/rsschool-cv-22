@@ -30,3 +30,6 @@ function vowelOne(s){
 * Russian - native
 * English - advanced
 * German, French - intermidiate
+
+----
+[* Artist website](www.annadvorart.com "objects and sculpture")
