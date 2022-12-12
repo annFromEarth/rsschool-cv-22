@@ -4,13 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cv</title>
+  <title>Anna Dvor - Junior Javascript Developer</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/img/anna-dvor-portrait-photo-1.jpg">
+  <link rel="icon" href="assets/img/icon-raised-hand.ico">
 </head>
 <body>
-  <header class="header"> cv </header>
-  <main class="main"> main </main>
-  <footer class="footer"> footer </footer>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education-and-english-skills" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="section" id="profile">
+        <img src="./assets/img/anna-dvor-portrait-photo-1.jpg" alt="anna-dvor-portrait-photo">
+        <h1 class="section-title">Anna Dvor</h1>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item">**E-mail:** anna.dvor@gmail.com</li>
+          <li class="contacts-item">**Discord:** annFromEarth#5200</li>
+        </ul>
+      </section>
+      <section class="section" id="about-me">
+        <h2 class="section-title">About me</h2>
+        <p>In course of my career as an artist I had to face several projects that involved augmented reality and coding. In the end I tried coding myself and discovered that I enjoy the process a lot. </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">JavaScript Basics</li>
+          <li class="skills-item">3dsMax, Adobe Package</li>
+        </ul>
+      </section>
+      <section class="section" id="code-example">
+        <h2 class="section-title">Code example</h2>
+        <p>***VowelOne Kata from Codewars:*** write a function that takes a string and outputs a strings of 1's and 0's where vowels become 1's and non-vowels become 0's. All non-vowels including non alpha characters (spaces,commas etc.) should be included.
+
+          ```
+          function vowelOne(s){
+             let arr=s.split("").map(y=>y.toLowerCase()).map(x=>(x=="a"||x=="e"||x=="i"||x=="o"||x=="u")?"1":"0") ;
+           return arr.join("")
+              }
+              
+          ```
+        </p>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Fluent English\ Finance Academy 2008</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/logo-rsschool.jpg" alt="rs_school_js"></a>
+    </div>
+  </footer>
 </body>
 </html>
