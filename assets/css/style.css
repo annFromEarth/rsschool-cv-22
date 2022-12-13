@@ -1,3 +1,9 @@
+:root {
+  --dark-gray-color: #505050;
+  --ligth-gray-color: #777777;
+  --pink-color: #ffd6d2;
+}
+
 @font-face {
   font-family: 'NanumGothic';
   src: url("assets/fonts/NanumGothic-Regular.ttf");
@@ -41,13 +47,22 @@ body {
   border: 1px solid red;
 }
 
-.footer {
-  border: 1px solid red;
-}
-
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.footer {
+  border: 1px solid red;
 }
 
 .nav-list {
