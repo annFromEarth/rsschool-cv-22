@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Dvor - Junior Javascript Developer</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="assets/img/icon-raised-hand.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container-centered">
+      <div class="left-column-header"></div>
+      <div class="right-column-header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container-centered">
+      <aside class="left-column">
+        <div class="left-column-content">
+          <section class="photo">
+            <img id="photo-image" src="./assets/img/anna-dvor-photo-portrait-circle-1.png" alt="anna-dvor-portrait-photo" style="width: 280px; height: 280px;">
+          </section>
+          <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a class="contacts-link" href="mailto:anna.dvor@gmail.com">
+                  <img class="contacts-icon" src="./assets/img/mail-icon-circle.png" alt="mail-icon">anna.dvor@gmail.com
+                </a>
+              </li>
+              <li class="contacts-item">
+                <a class="contacts-link" href="https://discord.com/app">
+                  <img class="contacts-icon" src="./assets/img/discord-icon-circle.png" alt="discord-icon">annFromEarth#5200
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </aside>
+      <div class="right-column">
+        <section class="section" id="profile">
+          <h1 class="section-title">Anna Dvor</h1>
+          <h2 id="profession-title">Junior Javascript Developer</h2>
+        </section>
+        <section class="section" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>While working as an artist I came across several art-projects that involved augmented reality and coding. I got really inspired and wanted explore new media in my own art-practice. Sometimes artists work in teams with technicians, and sometimes they master the needed skills themselves. I decided to try coding and found out that I genuinely enjoy the process. </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">JavaScript Basics</li>
+            <li class="skills-item">3dsMax, Adobe Package</li>
+            <li class="skills-item">English - advanced</li>
+          </ul>
+        </section>
+        <section class="section" id="code-example">
+          <h2 class="section-title">Code example</h2>
+          <p>VowelOne Kata from Codewars: write a function that takes a string and outputs a strings of 1's and 0's where vowels become 1's and non-vowels become 0's. All non-vowels including non alpha characters (spaces,commas etc.) should be included.
+          </p>
+          <div class="section-item-code">
+            <p class="code">
+             function vowelOne(s) {
+                let arr=s.split("").map(y=>y.toLowerCase()).map(x=>(x=="a"||x=="e"||x=="i"||x=="o"||x=="u")?"1":"0") ;
+             return arr.join("") ;
+                }
+            </p>
+          </div>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>2015 - Surikov Art School, Moscow</p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container-centered">
+      <div class="left-column-footer"></div>
+      <div class="right-column-footer">
+        <section class="footer-links">
+          <ul class="footer-links-list">
+            <li class="footer-links-item">&#169 2022</li>
+            <li class="footer-links-item">
+              <a href="https://github.com/annFromEarth" target="_blank">My GitHub</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/logo-rsschool-empty-background.png" alt="rs_school_js" style="width: 70px;"></a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
